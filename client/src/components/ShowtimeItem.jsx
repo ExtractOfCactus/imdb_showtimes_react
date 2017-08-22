@@ -5,7 +5,8 @@ class ShowtimeItem extends React.Component {
   render() {
     return (
       <div>
-        <a>{this.props.children}</a>
+        <h4 className="title"> {this.props.title} </h4>
+        <a className="showtime" href="{this.props.showtimes}">showtimes</a>
       </div>
     )
   }
