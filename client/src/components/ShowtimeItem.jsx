@@ -4,10 +4,14 @@ class ShowtimeItem extends React.Component {
 
   render() {
     return (
-      <div>
-        <h4 className="title"> {this.props.title} </h4>
-        <a className="showtime" href="{this.props.showtimes}">showtimes</a>
-      </div>
+      <table>
+      <tbody>
+      <tr>
+        <td className="title"> {this.props.title} </td>
+        <td className="showtime"><a href="{this.props.showtimes}">showtimes</a></td>
+      </tr>
+      </tbody>
+      </table>
     )
   }
 }

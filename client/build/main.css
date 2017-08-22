@@ -1,7 +1,15 @@
+#app {
+  margin-left: 300px;
+}
+
 #showtimesButton {
   width: 200px;
   height: 70px;
   background-color: blue;
   color: white;
   font-size: 20px;
+}
+
+.title {
+  width: 200px;
 }

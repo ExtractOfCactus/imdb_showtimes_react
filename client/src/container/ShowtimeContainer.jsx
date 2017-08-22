@@ -21,7 +21,7 @@ class ShowtimeContainer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="main-div">
         <h3>UK Opening This Week</h3>
         <ShowtimeList showtimeData={this.state.data} />
         <p><a href="linkaddress">See more opening this week >> </a></p>
